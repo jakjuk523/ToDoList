@@ -1,0 +1,175 @@
+body {
+    background-color: #111827;
+    margin: 0;
+    min-width: 100dvw;
+    min-height: 100dvh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allElements_style {
+    border: 1px solid #4b5563;
+    border-radius: 12px;
+    background-color: #1f2937;
+    width: 70dvw;
+    min-width: 350px;
+    max-width: 900px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.allInputs_style {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputsClass_style {
+    width: 100%;
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.input_style {
+    width: 60%;
+    min-width: 200px;
+    max-width: 850px;
+    padding: 12px;
+    background-color: #111827;
+    color: #e5e7eb;
+    border: 1px solid #4b5563;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1_style {
+    margin: 0;
+    padding: 10px 0;
+    color: #e5e7eb;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button1_style {
+    width: 70%;
+    min-width: 200px;
+    max-width: 850px;
+    padding: 12px;
+    background-color: #374151;
+    color: #e5e7eb;
+    border: 1px solid #4b5563;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button1_style:hover {
+    background-color: #4b5563;
+    transform: scale(1.02);
+}
+
+.button1_style:active {
+    transform: scale(0.98);
+}
+
+.buttonDelete_style {
+    padding: 6px 10px;
+    color: #e5e7eb;
+    background-color: #7a1d1d;
+    border: 1px solid #a83232;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.buttonDelete_style:hover {
+    background-color: #a83232;
+    transform: scale(1.05);
+}
+
+.buttonDelete_style:active {
+    transform: scale(0.95);
+}
+
+.saveButton_style {
+    padding: 8px 14px;
+    color: #e5e7eb;
+    background-color: #374151;
+    border: 1px solid #4b5563;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.saveButton_style:hover {
+    background-color: #4b5563;
+    transform: scale(1.05);
+}
+
+.saveButton_style:active {
+    transform: scale(0.95);
+}
+
+.doneTask_style {
+    padding: 8px 12px;
+    color: #ffffff;
+    background-color: #166534;
+    border: 1px solid #22c55e;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.doneTask_style:hover {
+    background-color: #22c55e;
+    transform: scale(1.05);
+}
+
+.doneTask_style:active {
+    transform: scale(0.95);
+}
+
+.notDoneTask_style {
+    padding: 8px 12px;
+    color: #e5e7eb;
+    background-color: darkred;
+    border: 1px solid red;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.notDoneTask_style:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
+.notDoneTask_style:active {
+    transform: scale(0.95);
+}
